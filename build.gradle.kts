@@ -53,6 +53,7 @@ tasks.withType<KotlinCompile>().configureEach {
     }
     @Suppress("SuspiciousCollectionReassignment")
     freeCompilerArgs += argsList
+    languageVersion = "1.6"
   }
 }
 
